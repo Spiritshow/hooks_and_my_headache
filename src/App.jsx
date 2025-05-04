@@ -4,6 +4,7 @@ import Counter from './components/Counter/Counter';
 import GeneratingArray from './components/GeneratingArray/GeneratingArray';
 import Inputer from './components/Inputer/Inputer';
 import TodoList from './components/ToDoList/ToDoList';
+import TestingMemo from './components/TestingMemo/TestingMemo';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,8 @@ function App() {
   return (
     <>
       {/* <Inputer/> */}
-      <TodoList/>
+      {/* <TodoList/> */}
+      <TestingMemo/>
     </>
   )
 }
