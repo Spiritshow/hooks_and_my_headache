@@ -5,19 +5,16 @@ import GeneratingArray from './components/GeneratingArray/GeneratingArray';
 import Inputer from './components/Inputer/Inputer';
 import TodoList from './components/ToDoList/ToDoList';
 import TestingMemo from './components/TestingMemo/TestingMemo';
+import Router from './components/router';
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  const flag = {c: count, setCount}
-  
-  const Context = useContext(flag);
 
   return (
     <>
+      <Router/>
       {/* <Inputer/> */}
       {/* <TodoList/> */}
-      <TestingMemo/>
+      {/* <TestingMemo/> */}
     </>
   )
 }

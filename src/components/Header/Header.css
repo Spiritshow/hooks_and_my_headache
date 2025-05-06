@@ -1,0 +1,8 @@
+.HeaderDiv{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    color: azure;
+    width: 100vw;
+    height: 6vh;
+}

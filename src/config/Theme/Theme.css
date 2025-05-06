@@ -1,0 +1,9 @@
+.Theme-dark{
+    background-color: rgb(35, 35, 35);
+    color: azure;
+}
+
+.Theme-light{
+    background-color: azure;
+    color: rgb(35, 35, 35);
+}
